@@ -1,0 +1,5 @@
+import { CheckCircle2, ClipboardCheck } from 'lucide-react';
+import data from '@/data/pesantren-data.json';
+
+const labels = ['Fotokopi KK', 'Akta Kelahiran', 'Ijazah/SKL', 'Pasfoto', 'Surat Keterangan Sehat'];
+export default function SyaratPendaftaran() { return <section className="px-4 py-16"><div className="mx-auto max-w-4xl rounded-3xl border border-emerald-100 bg-white p-8 shadow-sm dark:border-emerald-900 dark:bg-gray-900 md:p-10"><div className="mb-8 flex items-center gap-3"><ClipboardCheck className="h-8 w-8 text-emerald-600" /><div><p className="text-sm font-semibold text-emerald-600">Dokumen wajib</p><h2 className="text-3xl font-bold">Syarat Pendaftaran</h2></div></div><div className="grid gap-4 sm:grid-cols-2">{labels.map((label, index) => <div key={label} className="flex items-center gap-3 rounded-xl bg-emerald-50 p-4 dark:bg-emerald-950/40"><CheckCircle2 className="h-5 w-5 shrink-0 text-emerald-600" /><span>{label}{index === 0 ? ' (sesuai KK)' : ''}</span></div>)}</div><p className="mt-6 text-sm text-gray-600 dark:text-gray-400">Catatan: {data.psb.persyaratan[0]}</p></div></section>; }

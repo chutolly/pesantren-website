@@ -1,0 +1,295 @@
+{
+  "pesantren": {
+    "nama": "Pesantren Al-Azhar Bi'Ibadillah",
+    "singkatan": "PAB",
+    "slogan": "Mencetak Generasi Qurani, Berilmu, dan Berakhlak Mulia",
+    "deskripsiSingkat": "Pesantren modern yang memadukan pendalaman ilmu agama, pendidikan formal, dan pembinaan karakter untuk melahirkan insan beriman, berilmu, serta bermanfaat.",
+    "logo": "/images/logo-pesantren.png",
+    "tahunBerdiri": "1998"
+  },
+  "navigasi": [
+    { "label": "Beranda", "url": "#beranda" },
+    { "label": "Profil", "url": "#profil" },
+    { "label": "Program", "url": "#program" },
+    { "label": "PSB", "url": "#psb" },
+    { "label": "Fasilitas", "url": "#fasilitas" },
+    { "label": "Berita", "url": "#berita" }
+  ],
+  "hero": {
+    "label": "Bismillahirrahmanirrahim",
+    "judul": "Menjadi Rumah Tumbuh Generasi Qurani",
+    "deskripsi": "Bersama Pesantren Al-Azhar Bi'Ibadillah, ananda bertumbuh dalam ilmu, iman, adab, dan kemandirian untuk masa depan yang penuh keberkahan.",
+    "ayat": "رَبِّ زِدْنِي عِلْمًا",
+    "terjemahanAyat": "Ya Tuhanku, tambahkanlah kepadaku ilmu pengetahuan. — QS. Taha: 114",
+    "gambarLatar": "/images/hero-pesantren.jpg",
+    "tombolUtama": { "label": "Daftar PSB Sekarang", "url": "#psb" },
+    "tombolSekunder": { "label": "Kenal Pesantren", "url": "#profil" },
+    "statistik": [
+      { "angka": "1.250+", "label": "Santri Aktif" },
+      { "angka": "45+", "label": "Asatidz & Guru" },
+      { "angka": "25", "label": "Tahun Berkhidmat" }
+    ]
+  },
+  "profil": {
+    "judul": "Mengenal Al-Azhar Bi'Ibadillah",
+    "deskripsi": "Al-Azhar Bi'Ibadillah hadir sebagai ruang pendidikan yang menyeimbangkan kecerdasan spiritual, intelektual, emosional, dan sosial santri.",
+    "visi": "Menjadi lembaga pendidikan Islam unggul yang melahirkan generasi berakidah lurus, berakhlak mulia, berilmu luas, dan mandiri.",
+    "misi": [
+      "Menyelenggarakan pendidikan Al-Qur'an dan ilmu syar'i secara berjenjang serta mendalam.",
+      "Menanamkan adab Islami dalam seluruh kegiatan kehidupan santri.",
+      "Mengembangkan potensi akademik, bahasa, teknologi, dan kepemimpinan santri.",
+      "Membangun lingkungan pesantren yang aman, bersih, disiplin, dan penuh kekeluargaan."
+    ],
+    "nilai": ["Ikhlas", "Disiplin", "Berilmu", "Beradab", "Mandiri"]
+  },
+  "profilPesantren": {
+    "sejarah": "Al-Azhar Bi'Ibadillah didirikan dengan semangat menghadirkan pendidikan Islam berkualitas yang memadukan kedalaman ilmu agama, pendidikan formal, dan pembinaan karakter. Berawal dari majelis kecil yang diasuh para ulama, Al-Azhar Bi'Ibadillah terus bertumbuh menjadi rumah pendidikan bagi generasi Qurani.",
+    "pendiri": "H. Arpan Marwazi Gultom, M.Pd. bersama para ulama dan tokoh masyarakat",
+    "milestone": [
+      { "tahun": "1998", "peristiwa": "Al-Azhar Bi'Ibadillah mulai berdiri dan membuka pendidikan perdana di Sigalangan." },
+      { "tahun": "2008", "peristiwa": "Program pendidikan formal dan asrama santri dikembangkan." },
+      { "tahun": "2018", "peristiwa": "Fasilitas pembelajaran dan program tahfizh diperluas." },
+      { "tahun": "2026", "peristiwa": "Al-Azhar Bi'Ibadillah terus berkhidmat mencetak generasi Qurani." }
+    ],
+    "nilaiUtama": ["Keikhlasan", "Kemandirian", "Ukhuwah", "Kesederhanaan", "Bebas Berpikir"],
+    "struktur": [
+      { "nama": "H. Arpan Marwazi Gultom, M.Pd.", "jabatan": "Pimpinan Pesantren", "bidang": "Pembinaan umum dan arah pendidikan", "foto": "/images/pengasuh.jpg" },
+      { "nama": "Majelis Pertimbangan Pesantren", "jabatan": "Majelis Pertimbangan", "bidang": "Nasihat dan pengembangan kelembagaan", "foto": "/images/pengasuh.jpg" },
+      { "nama": "Ustadz/Ustadzah Al-Azhar Bi'Ibadillah", "jabatan": "Kepala Madrasah", "bidang": "Pendidikan formal dan kurikulum", "foto": "/images/pengasuh.jpg" },
+      { "nama": "Dewan Asatidz dan Ustadzah", "jabatan": "Dewan Pengajar", "bidang": "Pembelajaran, tahfizh, dan pendampingan santri", "foto": "/images/pengasuh.jpg" }
+    ]
+  },
+  "pengasuh": {
+    "label": "Sambutan Pimpinan Pesantren",
+    "nama": "H. Arpan Marwazi Gultom, M.Pd.",
+    "jabatan": "Pimpinan Pesantren Al-Azhar Bi'Ibadillah",
+    "foto": "/images/pengasuh.jpg",
+    "kutipan": "Al-Azhar Bi'Ibadillah hadir sebagai wadah pendidikan Islam yang memadukan pendalaman ilmu agama dan pendidikan formal guna melahirkan generasi Qurani, berilmu, dan bermanfaat.",
+    "tandaTangan": "H. Arpan Marwazi Gultom, M.Pd."
+  },
+  "programPendidikan": {
+    "judul": "Program Pendidikan Unggulan",
+    "deskripsi": "Kurikulum terpadu untuk membangun fondasi keislaman kuat sekaligus kesiapan santri menghadapi zaman.",
+    "program": [
+      {
+        "nama": "Tahfizh Al-Qur'an",
+        "ikon": "BookOpenCheck",
+        "deskripsi": "Program hafalan Al-Qur'an dengan talaqqi, tahsin, dan target capaian terarah.",
+        "gambar": "/images/program-tahfizh.jpg"
+      },
+      {
+        "nama": "Kajian Kitab Kuning",
+        "ikon": "ScrollText",
+        "deskripsi": "Pendalaman turats melalui kajian kitab bersama asatidz berpengalaman.",
+        "gambar": "/images/program-kitab.jpg"
+      },
+      {
+        "nama": "Madrasah Diniyah",
+        "ikon": "GraduationCap",
+        "deskripsi": "Pembelajaran fikih, akidah, akhlak, hadis, tafsir, dan sirah secara sistematis.",
+        "gambar": "/images/program-madrasah.jpg"
+      },
+      {
+        "nama": "Bahasa Arab & Inggris",
+        "ikon": "Languages",
+        "deskripsi": "Pembiasaan bahasa aktif melalui kelas, percakapan harian, dan klub bahasa.",
+        "gambar": "/images/program-bahasa.jpg"
+      }
+    ]
+  },
+  "psb": {
+    "judul": "Penerimaan Santri Baru 2026/2027",
+    "subjudul": "Mari bergabung menjadi bagian dari keluarga besar Pesantren Al-Azhar Bi'Ibadillah.",
+    "status": "Pendaftaran Gelombang 1 Dibuka",
+    "tahunAjaran": "2026/2027",
+    "biayaPendaftaran": "Rp250.000",
+    "alurPendaftaran": [
+      { "nomor": "01", "judul": "Isi Formulir", "deskripsi": "Lengkapi formulir pendaftaran secara online atau datang ke sekretariat." },
+      { "nomor": "02", "judul": "Unggah Berkas", "deskripsi": "Kirim dokumen persyaratan sesuai daftar yang telah ditentukan." },
+      { "nomor": "03", "judul": "Tes Seleksi", "deskripsi": "Ikuti tes baca Al-Qur'an, akademik dasar, dan wawancara." },
+      { "nomor": "04", "judul": "Daftar Ulang", "deskripsi": "Lakukan daftar ulang setelah dinyatakan lulus seleksi." }
+    ],
+    "persyaratan": [
+      "Muslim / Muslimah usia 12–16 tahun.",
+      "Fotokopi akta kelahiran dan kartu keluarga.",
+      "Fotokopi rapor semester terakhir.",
+      "Pas foto berwarna ukuran 3×4 sebanyak 4 lembar.",
+      "Surat keterangan sehat dari dokter atau puskesmas."
+    ],
+    "gelombang": [
+      { "nama": "Gelombang 1", "tanggal": "1 Oktober – 31 Desember 2025", "status": "Dibuka" },
+      { "nama": "Gelombang 2", "tanggal": "1 Januari – 31 Maret 2026", "status": "Segera Dibuka" },
+      { "nama": "Gelombang 3", "tanggal": "1 April – 31 Mei 2026", "status": "Segera Dibuka" }
+    ],
+    "tombolWhatsapp": {
+      "label": "Hubungi Panitia PSB",
+      "nomor": "6281234567890",
+      "pesan": "Assalamu'alaikum, saya ingin bertanya tentang Penerimaan Santri Baru Pesantren Al-Azhar Bi'Ibadillah."
+    }
+  },
+  "fasilitas": {
+    "judul": "Fasilitas & Kehidupan Santri",
+    "deskripsi": "Lingkungan belajar dan tinggal yang nyaman untuk mendukung tumbuh kembang santri.",
+    "daftar": [
+      { "nama": "Asrama Nyaman", "deskripsi": "Asrama bersih, tertata, dan didampingi musyrif 24 jam.", "gambar": "/images/fasilitas-asrama.jpg" },
+      { "nama": "Masjid Pesantren", "deskripsi": "Pusat ibadah, kajian, dan pembinaan ruhiyah santri.", "gambar": "/images/fasilitas-masjid.jpg" },
+      { "nama": "Laboratorium Komputer", "deskripsi": "Sarana literasi digital dan pembelajaran berbasis teknologi.", "gambar": "/images/fasilitas-laboratorium.jpg" },
+      { "nama": "Lapangan Olahraga", "deskripsi": "Area olahraga dan kegiatan ekstrakurikuler santri.", "gambar": "/images/fasilitas-lapangan.jpg" }
+    ],
+    "jadwalHarian": [
+      { "waktu": "03.45", "kegiatan": "Bangun, qiyamul lail, dan persiapan Subuh" },
+      { "waktu": "04.30", "kegiatan": "Shalat Subuh berjamaah dan wirid pagi" },
+      { "waktu": "05.30", "kegiatan": "Halaqah Al-Qur'an dan kebersihan" },
+      { "waktu": "07.00", "kegiatan": "Kegiatan belajar mengajar formal" },
+      { "waktu": "15.30", "kegiatan": "Ekstrakurikuler dan olahraga" },
+      { "waktu": "18.00", "kegiatan": "Shalat Maghrib, kajian, dan setoran hafalan" },
+      { "waktu": "20.00", "kegiatan": "Belajar malam dan evaluasi harian" }
+    ]
+  },
+  "berita": {
+    "judul": "Berita & Kajian Terkini",
+    "deskripsi": "Kabar kegiatan dan manfaat ilmu dari Pesantren Al-Azhar Bi'Ibadillah.",
+    "artikel": [
+      {
+        "id": "wisuda-tahfizh-2025",
+        "judul": "Wisuda Tahfizh: 48 Santri Raih Hafalan 30 Juz",
+        "tanggal": "12 September 2025",
+        "penulis": "Ustadz Ahmad Rizki",
+        "kategori": "Kegiatan",
+        "ringkasan": "Momentum syukur atas ikhtiar para santri dalam menjaga kalamullah selama masa pendidikan.",
+        "gambar": "/images/berita-wisuda.jpg",
+        "konten": "Pesantren Al-Azhar Bi'Ibadillah menggelar Wisuda Tahfizh Al-Qur'an yang dihadiri oleh 48 santri yang telah menyelesaikan hafalan 30 juz. Acara berlangsung khidmat dengan diiringi bacaan ayat suci Al-Qur'an dan doa dari para asatidz. Pengasuh Pesantren KH. Ahmad Fadhil, Lc., M.Pd. menyampaikan pesan agar para santri menjaga hafalan dengan istiqamah murojaah setiap hari. Beliau juga mengingatkan bahwa hafalan Al-Qur'an adalah amanah besar yang harus dijaga sepanjang hayat. Para wali santri hadir memberikan dukungan dan doa untuk putra-putri mereka yang telah mencapai prestasi mulia ini."
+      },
+      {
+        "id": "adab-menuntut-ilmu",
+        "judul": "Adab Menuntut Ilmu: Bekal Utama Seorang Santri",
+        "tanggal": "5 September 2025",
+        "penulis": "Ustadz Muhammad Hafidz",
+        "kategori": "Kajian",
+        "ringkasan": "Merawat keikhlasan, menghormati guru, dan istiqamah dalam perjalanan mencari ilmu.",
+        "gambar": "/images/berita-kajian.jpg",
+        "konten": "Kajian rutin mingguan di Pesantren Al-Azhar Bi'Ibadillah kali ini mengangkat tema Adab Menuntut Ilmu. Ustadz Muhammad Hafidz menjelaskan pentingnya meluruskan niat dalam menuntut ilmu, menjaga adab kepada guru, dan istiqamah dalam belajar. Beliau mengutip perkataan Imam Syafi'i: 'Ilmu itu tidak akan memberikan sebagian kecilnya kepada siapapun hingga ia memberikan seluruh dirinya.' Para santri diingatkan untuk senantiasa menjaga adab, baik dalam belajar, bergaul, maupun beribadah. Kajian ditutup dengan sesi tanya jawab yang antusias dari para santri."
+      },
+      {
+        "id": "juara-pidato-arab",
+        "judul": "Santri Al-Azhar Bi'Ibadillah Juara Lomba Pidato Bahasa Arab",
+        "tanggal": "28 Agustus 2025",
+        "penulis": "Ustadzah Fatimah Zahra",
+        "kategori": "Prestasi",
+        "ringkasan": "Prestasi membanggakan dalam ajang Musabaqah Bahasa tingkat kabupaten.",
+        "gambar": "/images/berita-prestasi.jpg",
+        "konten": "Santri Pesantren Al-Azhar Bi'Ibadillah, Muhammad Zainuddin, berhasil meraih juara pertama dalam Lomba Pidato Bahasa Arab tingkat kabupaten. Lomba yang diselenggarakan oleh PCNU Kabupaten ini diikuti oleh puluhan santri dari berbagai pesantren. Muhammad Zainuddin tampil memukau dengan pidato bertema 'Pemuda dan Tantangan Zaman' yang disampaikan dengan fasih dan penuh penghayatan. Prestasi ini membanggakan dan menjadi bukti kualitas program bahasa di Pesantren Al-Azhar Bi'Ibadillah. Kepala Madrasah menyampaikan apresiasi dan berharap prestasi ini dapat memotivasi santri lainnya."
+      },
+      {
+        "id": "khataman-kitab-kuning",
+        "judul": "Khataman Kitab Fathul Qorib: Santri Selesaikan Kajian Fikih",
+        "tanggal": "20 Agustus 2025",
+        "penulis": "Ustadz Abdullah Hasan",
+        "kategori": "Kajian",
+        "ringkasan": "Penutupan kajian kitab fikih klasik setelah satu tahun pembelajaran intensif.",
+        "gambar": "/images/berita-kajian.jpg",
+        "konten": "Santri kelas tinggi menyelesaikan kajian kitab Fathul Qorib setelah satu tahun pembelajaran. Acara khataman digelar dengan bacaan doa khatmul kitab dan tausiyah dari pengasuh. Para santri mengungkapkan rasa syukur dan berharap dapat mengamalkan ilmu fikih yang telah dipelajari dalam kehidupan sehari-hari."
+      },
+      {
+        "id": "kegiatan-bakti-sosial",
+        "judul": "Bakti Sosial Santri: Berbagi Kepada Masyarakat Sekitar",
+        "tanggal": "15 Agustus 2025",
+        "penulis": "Panitia Kegiatan Santri",
+        "kategori": "Kegiatan",
+        "ringkasan": "Santri turun ke masyarakat untuk memberikan bantuan dan berbagi kebahagiaan.",
+        "gambar": "/images/berita-wisuda.jpg",
+        "konten": "Pesantren Al-Azhar Bi'Ibadillah menggelar kegiatan bakti sosial sebagai wujud kepedulian kepada masyarakat sekitar. Santri membagikan paket sembako dan memberikan layanan kesehatan gratis kepada warga Desa Sukamaju. Kegiatan ini bertujuan menumbuhkan jiwa sosial dan empati santri terhadap sesama."
+      },
+      {
+        "id": "training-kepemimpinan",
+        "judul": "Training Kepemimpinan Santri: Membangun Karakter Pemimpin",
+        "tanggal": "10 Agustus 2025",
+        "penulis": "Tim Pembina Santri",
+        "kategori": "Kegiatan",
+        "ringkasan": "Pelatihan khusus untuk mengasah jiwa kepemimpinan dan kemandirian santri.",
+        "gambar": "/images/berita-prestasi.jpg",
+        "konten": "Santri mengikuti training kepemimpinan selama tiga hari yang meliputi materi public speaking, problem solving, teamwork, dan manajemen organisasi. Kegiatan ini diharapkan melahirkan santri yang tidak hanya berilmu, tetapi juga mampu memimpin dan memberikan manfaat bagi umat."
+      }
+    ]
+  },
+  "galeri": {
+    "judul": "Galeri & Dokumentasi Kegiatan",
+    "deskripsi": "Momen dan aktivitas keseharian santri di Pesantren Al-Azhar Bi'Ibadillah.",
+    "kategori": ["Semua", "Kegiatan Santri", "Kajian", "Prestasi", "Fasilitas"],
+    "foto": [
+      {
+        "id": "wisuda-tahfizh-1",
+        "caption": "Wisuda Tahfizh 48 Santri Hafizh",
+        "tanggal": "12 September 2025",
+        "kategori": "Kegiatan Santri",
+        "gambar": "/images/berita-wisuda.jpg"
+      },
+      {
+        "id": "kajian-kitab-1",
+        "caption": "Halaqah Kajian Kitab Kuning",
+        "tanggal": "5 September 2025",
+        "kategori": "Kajian",
+        "gambar": "/images/berita-kajian.jpg"
+      },
+      {
+        "id": "lomba-pidato-1",
+        "caption": "Juara Lomba Pidato Bahasa Arab",
+        "tanggal": "28 Agustus 2025",
+        "kategori": "Prestasi",
+        "gambar": "/images/berita-prestasi.jpg"
+      },
+      {
+        "id": "asrama-santri-1",
+        "caption": "Asrama Santri yang Nyaman dan Bersih",
+        "tanggal": "15 Agustus 2025",
+        "kategori": "Fasilitas",
+        "gambar": "/images/fasilitas-asrama.jpg"
+      },
+      {
+        "id": "masjid-pesantren-1",
+        "caption": "Masjid Pesantren Pusat Ibadah",
+        "tanggal": "15 Agustus 2025",
+        "kategori": "Fasilitas",
+        "gambar": "/images/fasilitas-masjid.jpg"
+      },
+      {
+        "id": "lab-komputer-1",
+        "caption": "Laboratorium Komputer Modern",
+        "tanggal": "15 Agustus 2025",
+        "kategori": "Fasilitas",
+        "gambar": "/images/fasilitas-laboratorium.jpg"
+      },
+      {
+        "id": "bakti-sosial-1",
+        "caption": "Bakti Sosial Santri ke Masyarakat",
+        "tanggal": "15 Agustus 2025",
+        "kategori": "Kegiatan Santri",
+        "gambar": "/images/berita-wisuda.jpg"
+      },
+      {
+        "id": "training-kepemimpinan-1",
+        "caption": "Training Kepemimpinan Santri",
+        "tanggal": "10 Agustus 2025",
+        "kategori": "Kegiatan Santri",
+        "gambar": "/images/berita-prestasi.jpg"
+      }
+    ]
+  },
+  "kontak": {
+    "alamat": "Jl. Padang Sidempuan-Madina KM 15, Pos Sigalangan",
+    "telepon": "Informasi Menyusul",
+    "email": "-",
+    "jamLayanan": "Senin–Sabtu, 08.00–16.00 WIB",
+    "googleMapsEmbedUrl": "https://www.google.com/maps?q=Jakarta&output=embed",
+    "googleMapsUrl": "https://maps.google.com/?q=Jakarta",
+    "mediaSosial": [
+      { "nama": "Instagram", "username": "@darulhikmah.official", "url": "https://instagram.com" },
+      { "nama": "Facebook", "username": "Pesantren Al-Azhar Bi'Ibadillah", "url": "https://facebook.com" },
+      { "nama": "YouTube", "username": "Al-Azhar Bi'Ibadillah TV", "url": "https://youtube.com" }
+    ]
+  },
+  "footer": {
+    "teksHakCipta": "© 2026 Pesantren Al-Azhar Bi'Ibadillah. Seluruh hak cipta dilindungi.",
+    "pesanPenutup": "Meniti ilmu, meraih keberkahan."
+  }
+}
