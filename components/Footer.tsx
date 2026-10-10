@@ -43,6 +43,14 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <Link
+                  href="/alumni"
+                  className="text-emerald-100 hover:text-yellow-300 transition text-sm"
+                >
+                  Alumni
+                </Link>
+              </li>
             </ul>
           </div>
 

@@ -8,12 +8,34 @@
     "tahunBerdiri": "1998"
   },
   "navigasi": [
-    { "label": "Beranda", "url": "#beranda" },
-    { "label": "Profil", "url": "#profil" },
-    { "label": "Program", "url": "#program" },
-    { "label": "PSB", "url": "#psb" },
-    { "label": "Fasilitas", "url": "#fasilitas" },
-    { "label": "Berita", "url": "#berita" }
+    {
+      "label": "Beranda",
+      "url": "#beranda"
+    },
+    {
+      "label": "Profil",
+      "url": "#profil"
+    },
+    {
+      "label": "Program",
+      "url": "#program"
+    },
+    {
+      "label": "PSB",
+      "url": "#psb"
+    },
+    {
+      "label": "Fasilitas",
+      "url": "#fasilitas"
+    },
+    {
+      "label": "Berita",
+      "url": "#berita"
+    },
+    {
+      "label": "Alumni",
+      "url": "/alumni"
+    }
   ],
   "hero": {
     "label": "Bismillahirrahmanirrahim",
@@ -22,12 +44,27 @@
     "ayat": "رَبِّ زِدْنِي عِلْمًا",
     "terjemahanAyat": "Ya Tuhanku, tambahkanlah kepadaku ilmu pengetahuan. — QS. Taha: 114",
     "gambarLatar": "/images/hero-pesantren.jpg",
-    "tombolUtama": { "label": "Daftar PSB Sekarang", "url": "#psb" },
-    "tombolSekunder": { "label": "Kenal Pesantren", "url": "#profil" },
+    "tombolUtama": {
+      "label": "Daftar PSB Sekarang",
+      "url": "#psb"
+    },
+    "tombolSekunder": {
+      "label": "Kenal Pesantren",
+      "url": "#profil"
+    },
     "statistik": [
-      { "angka": "1.250+", "label": "Santri Aktif" },
-      { "angka": "45+", "label": "Asatidz & Guru" },
-      { "angka": "25", "label": "Tahun Berkhidmat" }
+      {
+        "angka": "1.250+",
+        "label": "Santri Aktif"
+      },
+      {
+        "angka": "45+",
+        "label": "Asatidz & Guru"
+      },
+      {
+        "angka": "25",
+        "label": "Tahun Berkhidmat"
+      }
     ]
   },
   "profil": {
@@ -40,23 +77,67 @@
       "Mengembangkan potensi akademik, bahasa, teknologi, dan kepemimpinan santri.",
       "Membangun lingkungan pesantren yang aman, bersih, disiplin, dan penuh kekeluargaan."
     ],
-    "nilai": ["Ikhlas", "Disiplin", "Berilmu", "Beradab", "Mandiri"]
+    "nilai": [
+      "Ikhlas",
+      "Disiplin",
+      "Berilmu",
+      "Beradab",
+      "Mandiri"
+    ]
   },
   "profilPesantren": {
     "sejarah": "Al-Azhar Bi'Ibadillah didirikan dengan semangat menghadirkan pendidikan Islam berkualitas yang memadukan kedalaman ilmu agama, pendidikan formal, dan pembinaan karakter. Berawal dari majelis kecil yang diasuh para ulama, Al-Azhar Bi'Ibadillah terus bertumbuh menjadi rumah pendidikan bagi generasi Qurani.",
     "pendiri": "H. Arpan Marwazi Gultom, M.Pd. bersama para ulama dan tokoh masyarakat",
     "milestone": [
-      { "tahun": "1998", "peristiwa": "Al-Azhar Bi'Ibadillah mulai berdiri dan membuka pendidikan perdana di Sigalangan." },
-      { "tahun": "2008", "peristiwa": "Program pendidikan formal dan asrama santri dikembangkan." },
-      { "tahun": "2018", "peristiwa": "Fasilitas pembelajaran dan program tahfizh diperluas." },
-      { "tahun": "2026", "peristiwa": "Al-Azhar Bi'Ibadillah terus berkhidmat mencetak generasi Qurani." }
+      {
+        "tahun": "1998",
+        "peristiwa": "Al-Azhar Bi'Ibadillah mulai berdiri dan membuka pendidikan perdana di Sigalangan."
+      },
+      {
+        "tahun": "2008",
+        "peristiwa": "Program pendidikan formal dan asrama santri dikembangkan."
+      },
+      {
+        "tahun": "2018",
+        "peristiwa": "Fasilitas pembelajaran dan program tahfizh diperluas."
+      },
+      {
+        "tahun": "2026",
+        "peristiwa": "Al-Azhar Bi'Ibadillah terus berkhidmat mencetak generasi Qurani."
+      }
     ],
-    "nilaiUtama": ["Keikhlasan", "Kemandirian", "Ukhuwah", "Kesederhanaan", "Bebas Berpikir"],
+    "nilaiUtama": [
+      "Keikhlasan",
+      "Kemandirian",
+      "Ukhuwah",
+      "Kesederhanaan",
+      "Bebas Berpikir"
+    ],
     "struktur": [
-      { "nama": "H. Arpan Marwazi Gultom, M.Pd.", "jabatan": "Pimpinan Pesantren", "bidang": "Pembinaan umum dan arah pendidikan", "foto": "/images/pengasuh.jpg" },
-      { "nama": "Majelis Pertimbangan Pesantren", "jabatan": "Majelis Pertimbangan", "bidang": "Nasihat dan pengembangan kelembagaan", "foto": "/images/pengasuh.jpg" },
-      { "nama": "Ustadz/Ustadzah Al-Azhar Bi'Ibadillah", "jabatan": "Kepala Madrasah", "bidang": "Pendidikan formal dan kurikulum", "foto": "/images/pengasuh.jpg" },
-      { "nama": "Dewan Asatidz dan Ustadzah", "jabatan": "Dewan Pengajar", "bidang": "Pembelajaran, tahfizh, dan pendampingan santri", "foto": "/images/pengasuh.jpg" }
+      {
+        "nama": "H. Arpan Marwazi Gultom, M.Pd.",
+        "jabatan": "Pimpinan Pesantren",
+        "bidang": "Pembinaan umum dan arah pendidikan",
+        "foto": "/images/pengasuh.jpg"
+      },
+      {
+        "nama": "Majelis Pertimbangan Pesantren",
+        "jabatan": "Majelis Pertimbangan",
+        "bidang": "Nasihat dan pengembangan kelembagaan",
+        "foto": "/images/pengasuh.jpg"
+      },
+      {
+        "nama": "Ustadz/Ustadzah Al-Azhar Bi'Ibadillah",
+        "jabatan": "Kepala Madrasah",
+        "bidang": "Pendidikan formal dan kurikulum",
+        "foto": "/images/pengasuh.jpg"
+      },
+      {
+        "nama": "Dewan Asatidz dan Ustadzah",
+        "jabatan": "Dewan Pengajar",
+        "bidang": "Pembelajaran, tahfizh, dan pendampingan santri",
+        "foto": "/images/pengasuh.jpg"
+      }
     ]
   },
   "pengasuh": {
@@ -104,10 +185,26 @@
     "tahunAjaran": "2026/2027",
     "biayaPendaftaran": "Rp250.000",
     "alurPendaftaran": [
-      { "nomor": "01", "judul": "Isi Formulir", "deskripsi": "Lengkapi formulir pendaftaran secara online atau datang ke sekretariat." },
-      { "nomor": "02", "judul": "Unggah Berkas", "deskripsi": "Kirim dokumen persyaratan sesuai daftar yang telah ditentukan." },
-      { "nomor": "03", "judul": "Tes Seleksi", "deskripsi": "Ikuti tes baca Al-Qur'an, akademik dasar, dan wawancara." },
-      { "nomor": "04", "judul": "Daftar Ulang", "deskripsi": "Lakukan daftar ulang setelah dinyatakan lulus seleksi." }
+      {
+        "nomor": "01",
+        "judul": "Isi Formulir",
+        "deskripsi": "Lengkapi formulir pendaftaran secara online atau datang ke sekretariat."
+      },
+      {
+        "nomor": "02",
+        "judul": "Unggah Berkas",
+        "deskripsi": "Kirim dokumen persyaratan sesuai daftar yang telah ditentukan."
+      },
+      {
+        "nomor": "03",
+        "judul": "Tes Seleksi",
+        "deskripsi": "Ikuti tes baca Al-Qur'an, akademik dasar, dan wawancara."
+      },
+      {
+        "nomor": "04",
+        "judul": "Daftar Ulang",
+        "deskripsi": "Lakukan daftar ulang setelah dinyatakan lulus seleksi."
+      }
     ],
     "persyaratan": [
       "Muslim / Muslimah usia 12–16 tahun.",
@@ -117,9 +214,21 @@
       "Surat keterangan sehat dari dokter atau puskesmas."
     ],
     "gelombang": [
-      { "nama": "Gelombang 1", "tanggal": "1 Oktober – 31 Desember 2025", "status": "Dibuka" },
-      { "nama": "Gelombang 2", "tanggal": "1 Januari – 31 Maret 2026", "status": "Segera Dibuka" },
-      { "nama": "Gelombang 3", "tanggal": "1 April – 31 Mei 2026", "status": "Segera Dibuka" }
+      {
+        "nama": "Gelombang 1",
+        "tanggal": "1 Oktober – 31 Desember 2025",
+        "status": "Dibuka"
+      },
+      {
+        "nama": "Gelombang 2",
+        "tanggal": "1 Januari – 31 Maret 2026",
+        "status": "Segera Dibuka"
+      },
+      {
+        "nama": "Gelombang 3",
+        "tanggal": "1 April – 31 Mei 2026",
+        "status": "Segera Dibuka"
+      }
     ],
     "tombolWhatsapp": {
       "label": "Hubungi Panitia PSB",
@@ -131,19 +240,56 @@
     "judul": "Fasilitas & Kehidupan Santri",
     "deskripsi": "Lingkungan belajar dan tinggal yang nyaman untuk mendukung tumbuh kembang santri.",
     "daftar": [
-      { "nama": "Asrama Nyaman", "deskripsi": "Asrama bersih, tertata, dan didampingi musyrif 24 jam.", "gambar": "/images/fasilitas-asrama.jpg" },
-      { "nama": "Masjid Pesantren", "deskripsi": "Pusat ibadah, kajian, dan pembinaan ruhiyah santri.", "gambar": "/images/fasilitas-masjid.jpg" },
-      { "nama": "Laboratorium Komputer", "deskripsi": "Sarana literasi digital dan pembelajaran berbasis teknologi.", "gambar": "/images/fasilitas-laboratorium.jpg" },
-      { "nama": "Lapangan Olahraga", "deskripsi": "Area olahraga dan kegiatan ekstrakurikuler santri.", "gambar": "/images/fasilitas-lapangan.jpg" }
+      {
+        "nama": "Asrama Nyaman",
+        "deskripsi": "Asrama bersih, tertata, dan didampingi musyrif 24 jam.",
+        "gambar": "/images/fasilitas-asrama.jpg"
+      },
+      {
+        "nama": "Masjid Pesantren",
+        "deskripsi": "Pusat ibadah, kajian, dan pembinaan ruhiyah santri.",
+        "gambar": "/images/fasilitas-masjid.jpg"
+      },
+      {
+        "nama": "Laboratorium Komputer",
+        "deskripsi": "Sarana literasi digital dan pembelajaran berbasis teknologi.",
+        "gambar": "/images/fasilitas-laboratorium.jpg"
+      },
+      {
+        "nama": "Lapangan Olahraga",
+        "deskripsi": "Area olahraga dan kegiatan ekstrakurikuler santri.",
+        "gambar": "/images/fasilitas-lapangan.jpg"
+      }
     ],
     "jadwalHarian": [
-      { "waktu": "03.45", "kegiatan": "Bangun, qiyamul lail, dan persiapan Subuh" },
-      { "waktu": "04.30", "kegiatan": "Shalat Subuh berjamaah dan wirid pagi" },
-      { "waktu": "05.30", "kegiatan": "Halaqah Al-Qur'an dan kebersihan" },
-      { "waktu": "07.00", "kegiatan": "Kegiatan belajar mengajar formal" },
-      { "waktu": "15.30", "kegiatan": "Ekstrakurikuler dan olahraga" },
-      { "waktu": "18.00", "kegiatan": "Shalat Maghrib, kajian, dan setoran hafalan" },
-      { "waktu": "20.00", "kegiatan": "Belajar malam dan evaluasi harian" }
+      {
+        "waktu": "03.45",
+        "kegiatan": "Bangun, qiyamul lail, dan persiapan Subuh"
+      },
+      {
+        "waktu": "04.30",
+        "kegiatan": "Shalat Subuh berjamaah dan wirid pagi"
+      },
+      {
+        "waktu": "05.30",
+        "kegiatan": "Halaqah Al-Qur'an dan kebersihan"
+      },
+      {
+        "waktu": "07.00",
+        "kegiatan": "Kegiatan belajar mengajar formal"
+      },
+      {
+        "waktu": "15.30",
+        "kegiatan": "Ekstrakurikuler dan olahraga"
+      },
+      {
+        "waktu": "18.00",
+        "kegiatan": "Shalat Maghrib, kajian, dan setoran hafalan"
+      },
+      {
+        "waktu": "20.00",
+        "kegiatan": "Belajar malam dan evaluasi harian"
+      }
     ]
   },
   "berita": {
@@ -215,7 +361,13 @@
   "galeri": {
     "judul": "Galeri & Dokumentasi Kegiatan",
     "deskripsi": "Momen dan aktivitas keseharian santri di Pesantren Al-Azhar Bi'Ibadillah.",
-    "kategori": ["Semua", "Kegiatan Santri", "Kajian", "Prestasi", "Fasilitas"],
+    "kategori": [
+      "Semua",
+      "Kegiatan Santri",
+      "Kajian",
+      "Prestasi",
+      "Fasilitas"
+    ],
     "foto": [
       {
         "id": "wisuda-tahfizh-1",
@@ -280,16 +432,81 @@
     "telepon": "Informasi Menyusul",
     "email": "-",
     "jamLayanan": "Senin–Sabtu, 08.00–16.00 WIB",
-    "googleMapsEmbedUrl": "https://www.google.com/maps?q=Jakarta&output=embed",
-    "googleMapsUrl": "https://maps.google.com/?q=Jakarta",
+    "googleMapsEmbedUrl": "https://maps.app.goo.gl/b5VgPhKiaZm66VLY9",
+    "googleMapsUrl": "https://maps.app.goo.gl/b5VgPhKiaZm66VLY9",
     "mediaSosial": [
-      { "nama": "Instagram", "username": "@darulhikmah.official", "url": "https://instagram.com" },
-      { "nama": "Facebook", "username": "Pesantren Al-Azhar Bi'Ibadillah", "url": "https://facebook.com" },
-      { "nama": "YouTube", "username": "Al-Azhar Bi'Ibadillah TV", "url": "https://youtube.com" }
+      {
+        "nama": "Instagram",
+        "username": "@darulhikmah.official",
+        "url": "https://instagram.com"
+      },
+      {
+        "nama": "Facebook",
+        "username": "Pesantren Al-Azhar Bi'Ibadillah",
+        "url": "https://facebook.com"
+      },
+      {
+        "nama": "YouTube",
+        "username": "Al-Azhar Bi'Ibadillah TV",
+        "url": "https://youtube.com"
+      }
     ]
   },
   "footer": {
     "teksHakCipta": "© 2026 Pesantren Al-Azhar Bi'Ibadillah. Seluruh hak cipta dilindungi.",
     "pesanPenutup": "Meniti ilmu, meraih keberkahan."
+  },
+  "alumni": {
+    "judul": "Ikatan Alumni & Direktori Lulusan",
+    "deskripsi": "Ruang silaturahmi, kolaborasi, dan pendataan lulusan Pesantren Al-Azhar Bi'Ibadillah.",
+    "statistik": [
+      {
+        "angka": "1.200+",
+        "label": "Jumlah Lulusan"
+      },
+      {
+        "angka": "85+",
+        "label": "Perguruan Tinggi Negeri/Swasta"
+      },
+      {
+        "angka": "320+",
+        "label": "Pengabdian & Karir"
+      }
+    ],
+    "nomorWhatsapp": "6281234567890",
+    "alumni": [
+      {
+        "id": "alumni-001",
+        "nama": "Ahmad Fauzan Nasution",
+        "tahunLulus": "2018",
+        "aktivitasSekarang": "Mahasiswa UIN Sumatera Utara",
+        "foto": "/images/alumni/default.jpg",
+        "kesanPesan": "Pesantren membentuk adab, disiplin, dan semangat belajar yang menjadi bekal saya hingga kini."
+      },
+      {
+        "id": "alumni-002",
+        "nama": "Siti Khadijah Lubis",
+        "tahunLulus": "2019",
+        "aktivitasSekarang": "Guru Tahfizh",
+        "foto": "/images/alumni/default.jpg",
+        "kesanPesan": "Kebersamaan dengan para asatidz dan sahabat santri mengajarkan arti ikhlas dalam berkhidmat."
+      },
+      {
+        "id": "alumni-003",
+        "nama": "Muhammad Ridwan Harahap",
+        "tahunLulus": "2021",
+        "aktivitasSekarang": "Entrepreneur",
+        "foto": "/images/alumni/default.jpg",
+        "kesanPesan": "Nilai mandiri dan amanah dari pesantren menjadi fondasi dalam membangun usaha."
+      },
+      {
+        "id": "alumni-004",
+        "nama": "Nur Aisyah Siregar",
+        "tahunLulus": "2022",
+        "aktivitasSekarang": "Pimpinan Majlis Taklim",
+        "foto": "/images/alumni/default.jpg",
+        "kesanPesan": "Pesantren adalah rumah ilmu yang menguatkan langkah saya untuk terus memberi manfaat."
+      }
+    ]
   }
 }

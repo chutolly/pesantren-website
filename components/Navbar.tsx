@@ -42,6 +42,12 @@ export default function Navbar() {
                 {item.label}
               </Link>
             ))}
+            <Link
+              href="/alumni"
+              className="text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition font-medium text-sm"
+            >
+              Alumni
+            </Link>
           </div>
 
           {/* Tombol Desktop */}
@@ -84,6 +90,13 @@ export default function Navbar() {
                   {item.label}
                 </Link>
               ))}
+              <Link
+                href="/alumni"
+                className="block px-4 py-2 text-gray-700 dark:text-gray-300 hover:bg-emerald-100 dark:hover:bg-emerald-900 rounded-lg transition"
+                onClick={() => setIsOpen(false)}
+              >
+                Alumni
+              </Link>
               <a
                 href="#psb"
                 className="block w-full mt-4 bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-3 rounded-lg font-medium transition text-center"
