@@ -58,7 +58,7 @@
         "label": "Santri Aktif"
       },
       {
-        "angka": "45+",
+        "angka": "48+",
         "label": "Asatidz & Guru"
       },
       {
@@ -393,14 +393,14 @@
       {
         "id": "asrama-santri-1",
         "caption": "Asrama Santri yang Nyaman dan Bersih",
-        "tanggal": "15 Agustus 2025",
+        "tanggal": "15 Agustus 2026",
         "kategori": "Fasilitas",
         "gambar": "/images/fasilitas-asrama.jpg"
       },
       {
         "id": "masjid-pesantren-1",
         "caption": "Masjid Pesantren Pusat Ibadah",
-        "tanggal": "15 Agustus 2025",
+        "tanggal": "15 Agustus 2026",
         "kategori": "Fasilitas",
         "gambar": "/images/fasilitas-masjid.jpg"
       },
