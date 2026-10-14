@@ -118,7 +118,7 @@
         "nama": "H. Arpan Marwazi Gultom, M.Pd.",
         "jabatan": "Pimpinan Pesantren",
         "bidang": "Pembinaan umum dan arah pendidikan",
-        "foto": "/images/pengasuh.jpg"
+        "foto": "/images/pimpinan-pesantren.jpg"
       },
       {
         "nama": "Majelis Pertimbangan Pesantren",
@@ -144,7 +144,7 @@
     "label": "Sambutan Pimpinan Pesantren",
     "nama": "H. Arpan Marwazi Gultom, M.Pd.",
     "jabatan": "Pimpinan Pesantren Al-Azhar Bi'Ibadillah",
-    "foto": "/images/pengasuh.jpg",
+    "foto": "/images/pimpinan-pesantren-2.jpg",
     "kutipan": "Al-Azhar Bi'Ibadillah hadir sebagai wadah pendidikan Islam yang memadukan pendalaman ilmu agama dan pendidikan formal guna melahirkan generasi Qurani, berilmu, dan bermanfaat.",
     "tandaTangan": "H. Arpan Marwazi Gultom, M.Pd."
   },
@@ -241,9 +241,14 @@
     "deskripsi": "Lingkungan belajar dan tinggal yang nyaman untuk mendukung tumbuh kembang santri.",
     "daftar": [
       {
-        "nama": "Asrama Nyaman",
+        "nama": "Asrama Putra",
         "deskripsi": "Asrama bersih, tertata, dan didampingi musyrif 24 jam.",
-        "gambar": "/images/fasilitas-asrama.jpg"
+        "gambar": "/images/fasilitas-asrama-putra.jpg"
+      },
+      {
+        "nama": "Asrama Putri",
+        "deksripsi": "Asrama bersih, tertata, dan didampingi musyrif 24jam",
+        "gambar": "/images/fasilitas-asrama-putri.jpg"
       },
       {
         "nama": "Masjid Pesantren",
@@ -263,7 +268,7 @@
     ],
     "jadwalHarian": [
       {
-        "waktu": "03.45",
+        "waktu": "03.50",
         "kegiatan": "Bangun, qiyamul lail, dan persiapan Subuh"
       },
       {
@@ -275,7 +280,7 @@
         "kegiatan": "Halaqah Al-Qur'an dan kebersihan"
       },
       {
-        "waktu": "07.00",
+        "waktu": "08.00",
         "kegiatan": "Kegiatan belajar mengajar formal"
       },
       {
@@ -429,7 +434,7 @@
   },
   "kontak": {
     "alamat": "Jl. Padang Sidempuan-Madina KM 15, Pos Sigalangan",
-    "telepon": "Informasi Menyusul",
+    "telepon": "081396759086",
     "email": "-",
     "jamLayanan": "Senin–Sabtu, 08.00–16.00 WIB",
     "googleMapsEmbedUrl": "https://maps.app.goo.gl/b5VgPhKiaZm66VLY9",
@@ -437,8 +442,8 @@
     "mediaSosial": [
       {
         "nama": "Instagram",
-        "username": "@darulhikmah.official",
-        "url": "https://instagram.com"
+        "username": "@mahad_alazhar_biibadillah",
+        "url": "https://www.instagram.com/mahad_alazhar_biibadillah?utm_source=ig_web_button_share_sheet&rpxt=ZDNlZDc0MzIxNw=="
       },
       {
         "nama": "Facebook",
@@ -449,6 +454,11 @@
         "nama": "YouTube",
         "username": "Al-Azhar Bi'Ibadillah TV",
         "url": "https://youtube.com"
+      },
+      {
+        "nama": "Tiktok",
+        "username": "PONPES AL-AZHAR BI'IBADILLAH",
+        "url": "https://www.tiktok.com/@ponpesalazharbiibadillah?is_from_webapp=1&sender_device=pc"
       }
     ]
   },
@@ -457,15 +467,15 @@
     "pesanPenutup": "Meniti ilmu, meraih keberkahan."
   },
   "alumni": {
-    "judul": "Ikatan Alumni & Direktori Lulusan",
+    "judul": "Keluarga Ma'had Al-Azhar Bi'Ibadillah-KAMABI",
     "deskripsi": "Ruang silaturahmi, kolaborasi, dan pendataan lulusan Pesantren Al-Azhar Bi'Ibadillah.",
     "statistik": [
       {
-        "angka": "1.200+",
+        "angka": "1.000+",
         "label": "Jumlah Lulusan"
       },
       {
-        "angka": "85+",
+        "angka": "700+",
         "label": "Perguruan Tinggi Negeri/Swasta"
       },
       {
