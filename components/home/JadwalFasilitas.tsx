@@ -1,7 +1,13 @@
 'use client';
 
-import { Clock, MapPin } from 'lucide-react';
+import { BookOpen, Clock, HeartPulse, Home, MapPin } from 'lucide-react';
 import data from '@/data/pesantren-data.json';
+
+const ikonFasilitas = {
+  HeartPulse,
+  BookOpen,
+  Home,
+};
 
 export default function JadwalFasilitas() {
   const fasilitasData = data.fasilitas;
@@ -61,22 +67,37 @@ export default function JadwalFasilitas() {
             </div>
 
             <div className="grid grid-cols-2 gap-4">
-              {fasilitasData.daftar.map((fasilitas, idx) => (
-                <div
-                  key={idx}
-                  className="group bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100 dark:border-gray-900"
-                >
-                  {/* Image Placeholder */}
-                  <div className="aspect-video bg-gradient-to-br from-emerald-100 to-emerald-200 dark:from-emerald-900 dark:to-emerald-800 flex items-center justify-center">
-                    <div className="text-center text-emerald-600 dark:text-emerald-400">
-                      <div className="text-3xl mb-1">🏛️</div>
-                      <p className="text-xs font-medium">Foto Fasilitas</p>
-                    </div>
+              {fasilitasData.daftar.map((fasilitas, idx) => {
+                const IkonFasilitas =
+                  'ikon' in fasilitas && fasilitas.ikon
+                    ? ikonFasilitas[fasilitas.ikon as keyof typeof ikonFasilitas]
+                    : null;
+
+                return (
+                  <div
+                    key={idx}
+                    className="group bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100 dark:border-gray-900"
+                  >
+                  {/* Facility Image */}
+                  <div className="aspect-video bg-gradient-to-br from-emerald-100 to-emerald-200 dark:from-emerald-900 dark:to-emerald-800 flex items-center justify-center overflow-hidden">
+                    {fasilitas.gambar ? (
+                      <img
+                        src={fasilitas.gambar}
+                        alt={fasilitas.nama}
+                        className="w-full h-full object-cover"
+                      />
+                    ) : (
+                      <div className="text-center text-emerald-600 dark:text-emerald-400">
+                        <div className="text-3xl mb-1">🏛️</div>
+                        <p className="text-xs font-medium">Foto Fasilitas</p>
+                      </div>
+                    )}
                   </div>
 
                   {/* Content */}
                   <div className="p-4">
-                    <h4 className="font-bold text-gray-900 dark:text-white mb-1">
+                    <h4 className="flex items-center gap-2 font-bold text-gray-900 dark:text-white mb-1">
+                      {IkonFasilitas && <IkonFasilitas className="w-4 h-4 shrink-0 text-emerald-600 dark:text-emerald-400" />}
                       {fasilitas.nama}
                     </h4>
                     <p className="text-gray-600 dark:text-gray-400 text-xs line-clamp-2">
@@ -84,7 +105,8 @@ export default function JadwalFasilitas() {
                     </p>
                   </div>
                 </div>
-              ))}
+              );
+              })}
             </div>
           </div>
         </div>

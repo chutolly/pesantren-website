@@ -264,6 +264,24 @@
         "nama": "Lapangan Olahraga",
         "deskripsi": "Area olahraga dan kegiatan ekstrakurikuler santri.",
         "gambar": "/images/fasilitas-lapangan.jpg"
+      },
+      {
+        "nama": "Unit Kesehatan Sekolah (UKS)",
+        "deskripsi": "Fasilitas pertolongan pertama dan pelayanan kesehatan santri yang dilengkapi dengan peralatan medis dasar, obat-obatan standar, serta pendampingan petugas kesehatan.",
+        "gambar": "/images/fasilitas/uks.jpg",
+        "ikon": "HeartPulse"
+      },
+      {
+        "nama": "Perpustakaan & Pusat Literasi",
+        "deskripsi": "Ruang baca yang nyaman dengan koleksi kitab-kitab klasik (kitab kuning), buku pelajaran umum, literasi Islam, serta area belajar mandiri bagi santri.",
+        "gambar": "/images/fasilitas/perpustakaan.jpg",
+        "ikon": "BookOpen"
+      },
+      {
+        "nama": "Wisma Tamu & Tempat Singgah Orang Tua",
+        "deskripsi": "Area peristirahatan dan penginapan yang bersih serta nyaman khusus bagi wali santri yang sedang berkunjung atau menjenguk anak di pesantren.",
+        "gambar": "/images/fasilitas/tempat-singgah.jpg",
+        "ikon": "Home"
       }
     ],
     "jadwalHarian": [
